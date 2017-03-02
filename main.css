@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
 
 body {
-  font-size: 16px;
+  font-size: 14px;
   font-family: 'Ubuntu', sans-serif;
+  color: #565357;
 }
 
 h1 {
@@ -21,7 +22,7 @@ h1 {
 #pics-of-us img {
   display: block;
   max-width: 100%;
-  max-height: 100%;
+  max-height: 600px;
   height: auto;
 }
 
@@ -31,16 +32,16 @@ h1 {
 
 header span {
   color: #565357;
-  font-size: 1.5em;
+  font-size: 1.4em;
   display: block;
   padding-top: .4em;
 }
 
 .section-details {
   color: #565357;
-  font-size: 1.5em;
+  font-size: 1.4em;
   line-height: 1.4em;
-  margin-top: 1.4em;
+  margin-top: 1.5em;
 }
 
 .section-details header {
@@ -49,4 +50,46 @@ header span {
   color: #7f4e8b;
   font-size: 1.4em;
   padding-bottom: .2em;
+}
+
+.other-info {
+  clear: both;
+  font-size: 1.2em;
+}
+
+.other-info section {
+  width: 33.3%;
+  float: left;
+  margin-top: 1.5em;
+}
+
+.other-info header {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  background: url('pics/rsvp-bg.png') center center no-repeat;
+  background-size: contain;
+  padding: 1em 1.2em .9em;
+}
+
+.other-info #hotel header {
+  background-image: url(pics/accomodations-bg.png);
+}
+
+.other-info .inner-wrapper {
+  padding: 1.2em 2.2em;
+  line-height: 1.5em;
+}
+
+.other-info a {
+  color: #fff;
+  display: block;
+  padding: .9em;
+  width: 160px;
+  text-align: center;
+  margin: 1.8em auto;
+  font-size: 1.2em;
+  border-radius: 3px;
+  background-color: #7f4e8b;
 }
