@@ -108,7 +108,7 @@ header span {
   
   .top-section {
     float: none;
-    width: 100%;
+    width: auto;
     min-width: 260px;
   }
   
@@ -124,8 +124,26 @@ header span {
     max-width: none;
   }
   
+  #pics-of-us {
+    margin: 2em;
+  }
+  
+  #pics-of-us img {
+    width: 100%;
+    height: auto;
+    max-height: none;
+  }
+  
   .other-info .inner-wrapper {
     line-height: 2em;
+  }
+  
+  .other-info header {
+    padding: 1.3em 1.5em 1.1em;
+  }
+  
+  #registry a {
+    width: 100%;
   }
   
 }
