@@ -104,7 +104,6 @@ header span {
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   body {
-    font-size: 12px;
   }
   
   .top-section {
@@ -113,8 +112,10 @@ header span {
     min-width: 260px;
   }
   
-  #pics-of-us img {
-
+  .other-info a {
+    font-size: 1.6em;
+    width: 100%;
+    padding: 1.1em 0
   }
   
   .other-info section {
@@ -123,5 +124,8 @@ header span {
     max-width: none;
   }
   
+  .other-info .inner-wrapper {
+    line-height: 2em;
+  }
   
 }
