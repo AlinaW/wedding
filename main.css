@@ -101,16 +101,27 @@ header span {
   width: 200px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    body {
-      font-size: 12px;
-    }
-    
-    .top-section {
-      float: none;
-      width: 100%;
-    }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  body {
+    font-size: 12px;
+  }
+  
+  .top-section {
+    float: none;
+    width: 100%;
+    min-width: 260px;
+  }
+  
+  #pics-of-us img {
+
+  }
+  
+  .other-info section {
+    float: none;
+    width: 100%;
+    max-width: none;
+  }
+  
+  
 }
